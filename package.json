@@ -20,7 +20,8 @@
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
     "format": "prettier --write src/",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "pre-commit":  "lint-staged"
   },
   "eslintConfig": {
     "extends": [
